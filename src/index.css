@@ -48,7 +48,7 @@ h1 {
 }
 
 h1 .age {
-    word-wrap: none;
+    word-wrap: normal;
     white-space: pre;
     color: lightblue
 }
