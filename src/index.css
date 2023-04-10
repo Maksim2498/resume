@@ -45,12 +45,30 @@ ul {
 h1 {
     max-width: 100%;
     word-wrap: break-word;
-    font-size: 4rem
 }
 
 h1 .age {
-    font-size: 2rem;
     color: lightblue
+}
+
+@media (max-width: 470px) {
+    h1 {
+        font-size: 2.5rem
+    }
+
+    h1 .age {
+        font-size: 1.5rem
+    }
+}
+
+@media (min-width: 471px) {
+    h1 {
+        font-size: 4rem
+    }
+
+    h1 .age {
+        font-size: 2rem
+    }
 }
 
 .my-photo-container {
