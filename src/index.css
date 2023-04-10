@@ -91,6 +91,10 @@ h1 .age {
 
 /* Contacts */
 
+.contacts h2 {
+    display: none
+}
+
 .contacts {
     width: 100%;
     display: flex
