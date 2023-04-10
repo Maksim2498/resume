@@ -1,0 +1,117 @@
+/* Common */
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem
+}
+
+section {
+    width: 100%;
+    margin: 1rem 2rem
+}
+
+section > * {
+    margin: 1.5rem 0
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border-bottom: medium solid black;
+    width: 100%
+}
+
+ul {
+    margin-left: 1rem
+}
+
+/* Main */
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+h1 {
+    max-width: 100%;
+    word-wrap: break-word;
+    font-size: 4rem
+}
+
+h1 .age {
+    font-size: 2rem;
+    color: lightblue
+}
+
+.my-photo-container {
+    width: 15rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border-radius: 1rem;
+    box-shadow: 0 0 .25rem black;
+    overflow: hidden;
+    border: thin solid black
+}
+
+.my-photo {
+    position: relative;
+    top: -1rem;
+    width: 100%
+}
+
+/* Contacts */
+
+.contacts {
+    width: 100%;
+    display: flex
+}
+
+.contact-list {
+    border-left: medium solid black
+}
+
+.contact-list tr {
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+    background-position-x: .25rem;
+    background-position-y: center
+}
+
+.contact-list .tel {
+    background-image: url("images/phone-icon.svg")
+}
+
+.contact-list .mail {
+    background-image: url("images/mail-icon.svg");
+}
+
+.contact-list .vk {
+    background-image: url("images/vk-icon.svg")
+}
+
+.contact-list .github {
+    background-image: url("images/github-icon.svg")
+}
+
+.contact-list .home {
+    background-image: url("images/home-icon.svg")
+}
+
+.contact-list td {
+    padding: .5rem
+}
+
+.contact-list td:first-child {
+    padding-left: 2.5rem;
+    font-weight: bold
+}

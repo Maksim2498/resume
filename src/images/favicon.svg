@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="1024.0px" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 1024 1024" width="1024.0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<text font-family="TimesNewRomanPSMT" font-size="1000" id="Fill" text-anchor="middle" transform="matrix(1 0 0 1 232.424 -62.7402)" x="0" y="0">
+<tspan textLength="556.152" x="278.076" y="891">F</tspan>
+</text>
+</defs>
+<g id="Layer-1">
+<g opacity="1">
+<use fill="#ffffff" stroke="none" xlink:href="#Fill"/>
+<mask height="2178.33" id="StrokeMask" maskUnits="userSpaceOnUse" width="2015.24" x="-508.072" y="-591.959">
+<rect fill="#ffffff" height="2178.33" stroke="none" width="2015.24" x="-508.072" y="-591.959"/>
+<use fill="#000000" fill-rule="evenodd" stroke="none" xlink:href="#Fill"/>
+</mask>
+<use fill="none" mask="url(#StrokeMask)" stroke="#000000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="64" xlink:href="#Fill"/>
+</g>
+</g>
+</svg>
