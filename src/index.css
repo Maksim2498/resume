@@ -80,38 +80,35 @@ h1 .age {
     border-left: medium solid black
 }
 
-.contact-list tr {
-    background-repeat: no-repeat;
-    background-size: 1.5rem;
-    background-position-x: .25rem;
-    background-position-y: center
-}
-
-.contact-list .tel {
-    background-image: url("images/phone-icon.svg")
-}
-
-.contact-list .mail {
-    background-image: url("images/mail-icon.svg");
-}
-
-.contact-list .vk {
-    background-image: url("images/vk-icon.svg")
-}
-
-.contact-list .github {
-    background-image: url("images/github-icon.svg")
-}
-
-.contact-list .home {
-    background-image: url("images/home-icon.svg")
-}
-
 .contact-list td {
     padding: .5rem
 }
 
 .contact-list td:first-child {
     padding-left: 2.5rem;
-    font-weight: bold
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+    background-position-x: .25rem;
+    background-position-y: center
+}
+
+.contact-list .tel td:first-child {
+    background-image: url("images/phone-icon.svg")
+}
+
+.contact-list .mail td:first-child {
+    background-image: url("images/mail-icon.svg");
+}
+
+.contact-list .vk td:first-child {
+    background-image: url("images/vk-icon.svg")
+}
+
+.contact-list .github td:first-child {
+    background-image: url("images/github-icon.svg")
+}
+
+.contact-list .home td:first-child {
+    background-image: url("images/home-icon.svg")
 }
