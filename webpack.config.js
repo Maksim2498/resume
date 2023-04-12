@@ -1,6 +1,6 @@
-const HtmlPlugin           = require("html-webpack-plugin")
-const CssMinimizerPlugin   = require("css-minimizer-webpack-plugin")
-const TerserPlugin         = require("terser-webpack-plugin")
+const HtmlPlugin         = require("html-webpack-plugin")
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin")
+const TerserPlugin       = require("terser-webpack-plugin")
 
 const production = process.env.NODE_ENV === "production"
 
