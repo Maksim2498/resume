@@ -1,6 +1,4 @@
 const HtmlPlugin           = require("html-webpack-plugin")
-const MiniCssExtractPlugin = require("mini-css-extract-plugin")
-const HtmlInlineCssPlugin  = require("html-inline-css-webpack-plugin").default
 const CssMinimizerPlugin   = require("css-minimizer-webpack-plugin")
 const TerserPlugin         = require("terser-webpack-plugin")
 
@@ -12,12 +10,13 @@ module.exports = {
         clean:    true,
         filename: production ? "bundle.[contenthash].js" : "bundle.js",
     },
+    devtool: production ? undefined : "inline-source-map",
     module: {
         rules: [
             {
                 test: /\.css$/i,
                 use:  [
-                    MiniCssExtractPlugin.loader,
+                    "style-loader",
                     "css-loader",
                 ],
             },
@@ -36,10 +35,13 @@ module.exports = {
         ],
     },
     plugins: [
-        new MiniCssExtractPlugin(),
         new HtmlPlugin({
             template: "./src/index.html",
         }),
-        new HtmlInlineCssPlugin(),
     ],
+    devServer: {
+        static: "./dist",
+        port:   8000,
+        hot:    true,
+    },
 }

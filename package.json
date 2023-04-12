@@ -4,6 +4,7 @@
   "description": "My resume",
   "private": true,
   "scripts": {
+    "start": "webpack serve --open",
     "build": "cross-env NODE_ENV=production webpack",
     "build:dev": "webpack"
   },
@@ -25,11 +26,11 @@
     "cross-env": "^7.0.3",
     "css-loader": "^6.7.3",
     "css-minimizer-webpack-plugin": "^5.0.0",
-    "html-inline-css-webpack-plugin": "^1.11.1",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
-    "mini-css-extract-plugin": "^2.7.5",
+    "style-loader": "^3.3.2",
     "webpack": "^5.78.0",
-    "webpack-cli": "^5.0.1"
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.2"
   }
 }
