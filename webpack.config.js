@@ -11,7 +11,7 @@ export default {
         filename: production ? "bundle.[contenthash].js" : "bundle.js",
     },
     devtool: production ? undefined : "inline-source-map",
-    module: {
+    module:  {
         rules: [
             {
                 test: /\.css$/i,
