@@ -1,0 +1,35 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "My resume",
+  "private": true,
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "build:dev": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maksim2498/resume.git"
+  },
+  "keywords": [
+    "resume",
+    "site"
+  ],
+  "author": "Maksim Fomin",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/Maksim2498/resume/issues"
+  },
+  "homepage": "https://github.com/Maksim2498/resume#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.3",
+    "css-minimizer-webpack-plugin": "^5.0.0",
+    "html-inline-css-webpack-plugin": "^1.11.1",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.5",
+    "webpack": "^5.78.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
