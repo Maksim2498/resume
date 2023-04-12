@@ -1,10 +1,10 @@
-const HtmlPlugin         = require("html-webpack-plugin")
-const CssMinimizerPlugin = require("css-minimizer-webpack-plugin")
-const TerserPlugin       = require("terser-webpack-plugin")
+import HtmlPlugin         from "html-webpack-plugin"
+import CssMinimizerPlugin from "css-minimizer-webpack-plugin"
+import TerserPlugin       from "terser-webpack-plugin"
 
 const production = process.env.NODE_ENV === "production"
 
-module.exports = {
+export default {
     mode:   production ? "production" : "development",
     output: {
         clean:    true,

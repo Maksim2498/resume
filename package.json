@@ -1,5 +1,6 @@
 {
   "name": "resume",
+  "type": "module",
   "version": "1.0.0",
   "description": "My resume",
   "private": true,
