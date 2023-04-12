@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "start": "webpack serve --open",
-    "build": "cross-env NODE_ENV=production webpack",
+    "build": "webpack --env production",
     "build:dev": "webpack"
   },
   "repository": {
@@ -24,7 +24,6 @@
   },
   "homepage": "https://github.com/Maksim2498/resume#readme",
   "devDependencies": {
-    "cross-env": "^7.0.3",
     "css-loader": "^6.7.3",
     "css-minimizer-webpack-plugin": "^5.0.0",
     "html-loader": "^4.2.0",
