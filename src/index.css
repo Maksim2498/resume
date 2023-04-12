@@ -38,19 +38,6 @@ li {
     margin: .5rem 0
 }
 
-footer {
-    padding: 100vh 0 1rem 1rem;
-    color: #888
-}
-
-footer a {
-    color: #666
-}
-
-footer a:visited {
-    color: #444
-}
-
 /* Main */
 
 .main {
@@ -61,7 +48,7 @@ footer a:visited {
 
 h1 {
     max-width: 100%;
-    word-wrap: break-word;
+    word-wrap: break-word
 }
 
 h1 .age {
@@ -138,7 +125,7 @@ h1 .age {
 }
 
 .contact-list .mail td:first-child {
-    background-image: url("images/mail-icon.svg");
+    background-image: url("images/mail-icon.svg")
 }
 
 .contact-list .vk td:first-child {
@@ -151,4 +138,19 @@ h1 .age {
 
 .contact-list .home td:first-child {
     background-image: url("images/home-icon.svg")
+}
+
+/* Footer */
+
+footer {
+    padding: 100vh 0 1rem 1rem;
+    color: #888
+}
+
+footer a {
+    color: #666
+}
+
+footer a:visited {
+    color: #444
 }
