@@ -40,8 +40,6 @@ export default {
         }),
     ],
     devServer: {
-        static: "./dist",
-        port:   8000,
-        hot:    true,
+        port: 8000,
     },
 }
