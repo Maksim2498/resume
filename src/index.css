@@ -78,9 +78,7 @@ h1 .age {
 }
 
 .my-photo-container {
-    width: 15rem;
-    aspect-ratio: 1/1;
-    border-radius: 50%;
+    margin-left: 1rem;
     border-radius: 1rem;
     box-shadow: 0 0 .25rem black;
     overflow: hidden;
@@ -88,9 +86,8 @@ h1 .age {
 }
 
 .my-photo {
-    position: relative;
-    top: -1rem;
-    width: 100%
+    display: block;
+    width: 15rem
 }
 
 /* Contacts */
