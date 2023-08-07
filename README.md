@@ -31,4 +31,4 @@ npm run build
 
 ## Как это выглядит?
 
-![Screenshot](/images/Screenshot.png)
+![Screenshot](/images/screenshot.png)
