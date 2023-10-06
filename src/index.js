@@ -1,10 +1,8 @@
-import body from "./body.html"
-
 import "./index.css"
 
 const BDAY = new Date("2001-05-21")
 
-document.body.innerHTML = body
+//document.body.innerHTML = body
 
 const ageValueElement  = document.getElementById("age-value")
 const agePluralElement = document.getElementById("age-plural")

@@ -133,6 +133,10 @@ h1 .age {
     background-image: url("images/github-icon.svg")
 }
 
+.contact-list .moshub td:first-child {
+    background-image: url("images/moshub-icon.svg")
+}
+
 .contact-list .home td:first-child {
     background-image: url("images/home-icon.svg")
 }
