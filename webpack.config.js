@@ -7,7 +7,7 @@ export default env => {
 
     return {
         mode:    production ? "production" : "development",
-        devtool: production ? undefined : "inline-source-map",
+        devtool: production ? undefined    : "inline-source-map",
 
         output: {
             clean:    true,
@@ -39,7 +39,7 @@ export default env => {
         optimization: {
             minimizer: [
                 new CssMinimizerPlugin(),
-                new TerserPlugin()
+                new TerserPlugin(),
             ],
         },
 
