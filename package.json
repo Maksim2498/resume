@@ -1,36 +1,36 @@
 {
-  "name": "resume",
-  "type": "module",
-  "version": "1.0.0",
-  "description": "My resume",
-  "private": true,
-  "scripts": {
-    "start": "webpack serve --open",
-    "build": "webpack --env production",
-    "build:dev": "webpack"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Maksim2498/resume.git"
-  },
-  "keywords": [
-    "resume",
-    "site"
-  ],
-  "author": "Maksim Fomin",
-  "license": "SEE LICENSE IN LICENSE.md",
-  "bugs": {
-    "url": "https://github.com/Maksim2498/resume/issues"
-  },
-  "homepage": "https://github.com/Maksim2498/resume#readme",
-  "devDependencies": {
-    "css-loader": "^6.7.3",
-    "css-minimizer-webpack-plugin": "^5.0.0",
-    "html-loader": "^4.2.0",
-    "html-webpack-plugin": "^5.5.0",
-    "style-loader": "^3.3.2",
-    "webpack": "^5.78.0",
-    "webpack-cli": "^5.0.1",
-    "webpack-dev-server": "^4.13.2"
-  }
+    "private": true,
+    "name": "resume",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "My resume",
+    "scripts": {
+        "start": "webpack serve --open",
+        "build": "webpack --env production",
+        "build:dev": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Maksim2498/resume.git"
+    },
+    "keywords": [
+        "resume",
+        "site"
+    ],
+    "author": "Maksim Fomin",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "bugs": {
+        "url": "https://github.com/Maksim2498/resume/issues"
+    },
+    "homepage": "https://github.com/Maksim2498/resume#readme",
+    "devDependencies": {
+        "css-loader": "^6.7.3",
+        "css-minimizer-webpack-plugin": "^5.0.0",
+        "html-loader": "^4.2.0",
+        "html-webpack-plugin": "^5.5.0",
+        "style-loader": "^3.3.2",
+        "webpack": "^5.78.0",
+        "webpack-cli": "^5.0.1",
+        "webpack-dev-server": "^4.13.2"
+    }
 }
