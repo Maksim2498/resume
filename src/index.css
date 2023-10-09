@@ -118,27 +118,27 @@ h1 .age {
 }
 
 .contact-list .tel td:first-child {
-    background-image: url("images/phone-icon.svg")
+    background-image: url("./images/phone-icon.svg")
 }
 
 .contact-list .mail td:first-child {
-    background-image: url("images/mail-icon.svg")
+    background-image: url("./images/mail-icon.svg")
 }
 
 .contact-list .vk td:first-child {
-    background-image: url("images/vk-icon.svg")
+    background-image: url("./images/vk-icon.svg")
 }
 
 .contact-list .github td:first-child {
-    background-image: url("images/github-icon.svg")
+    background-image: url("./images/github-icon.svg")
 }
 
 .contact-list .moshub td:first-child {
-    background-image: url("images/moshub-icon.svg")
+    background-image: url("./images/moshub-icon.svg")
 }
 
 .contact-list .home td:first-child {
-    background-image: url("images/home-icon.svg")
+    background-image: url("./images/home-icon.svg")
 }
 
 /* Footer */
