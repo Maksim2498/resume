@@ -17,7 +17,7 @@ export default env => {
 
         plugins: [
             new MiniCssExtractPlugin({
-                filename: `[name]${production ? ".[contenthash]" : ""}.css`
+                filename: `index${production ? ".[contenthash]" : ""}.css`,
             }),
             new HtmlPlugin({
                 template: "./src/index.html",
