@@ -4,76 +4,76 @@
     font-family: sans-serif;
     box-sizing: border-box;
     padding: 0;
-    margin: 0
+    margin: 0;
 }
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem
+    padding: 2rem;
 }
 
 section {
     width: 100%;
-    margin: 1rem 2rem
+    margin: 1rem 2rem;
 }
 
 section > * {
-    margin: 1.5rem 0
+    margin: 1.5rem 0;
 }
 
 h2 {
     font-size: 1.5rem;
     text-transform: uppercase;
     border-bottom: medium solid black;
-    width: 100%
+    width: 100%;
 }
 
 ul {
-    margin-left: 1rem
+    margin-left: 1rem;
 }
 
 li {
-    margin: .5rem 0
+    margin: .5rem 0;
 }
 
-/* Main */
+/* Main Section */
 
 .main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 h1 {
     max-width: 100%;
-    word-wrap: break-word
+    word-wrap: break-word;
 }
 
 h1 .age {
     word-wrap: normal;
     white-space: pre;
-    color: lightblue
+    color: lightblue;
 }
 
 @media (max-width: 470px) {
     h1 {
-        font-size: 2.5rem
+        font-size: 2.5rem;
     }
 
     h1 .age {
-        font-size: 1.5rem
+        font-size: 1.5rem;
     }
 }
 
 @media (min-width: 471px) {
     h1 {
-        font-size: 4rem
+        font-size: 4rem;
     }
 
     h1 .age {
-        font-size: 2rem
+        font-size: 2rem;
     }
 }
 
@@ -82,30 +82,30 @@ h1 .age {
     border-radius: 1rem;
     box-shadow: 0 0 .25rem black;
     overflow: hidden;
-    border: thin solid black
+    border: thin solid black;
 }
 
 .my-photo {
     display: block;
-    width: 15rem
+    width: 15rem;
 }
 
-/* Contacts */
+/* Contacts Section */
 
 .contacts h2 {
-    display: none
+    display: none;
 }
 
 .contacts {
-    width: 100%
+    width: 100%;
 }
 
 .contact-list {
-    border-left: medium solid black
+    border-left: medium solid black;
 }
 
 .contact-list td {
-    padding: .5rem
+    padding: .5rem;
 }
 
 .contact-list td:first-child {
@@ -114,50 +114,60 @@ h1 .age {
     background-repeat: no-repeat;
     background-size: 1.5rem;
     background-position-x: .25rem;
-    background-position-y: center
+    background-position-y: center;
 }
 
 .contact-list .tel td:first-child {
-    background-image: url("./images/phone-icon.svg")
+    background-image: url("./images/phone-icon.svg");
 }
 
 .contact-list .mail td:first-child {
-    background-image: url("./images/mail-icon.svg")
+    background-image: url("./images/mail-icon.svg");
 }
 
 .contact-list .vk td:first-child {
-    background-image: url("./images/vk-icon.svg")
+    background-image: url("./images/vk-icon.svg");
+}
+
+.contact-list .telegram td:first-child {
+    background-image: url("./images/telegram-icon.svg");
 }
 
 .contact-list .github td:first-child {
-    background-image: url("./images/github-icon.svg")
+    background-image: url("./images/github-icon.svg");
 }
 
 .contact-list .moshub td:first-child {
-    background-image: url("./images/moshub-icon.svg")
+    background-image: url("./images/moshub-icon.svg");
 }
 
 .contact-list .home td:first-child {
-    background-image: url("./images/home-icon.svg")
+    background-image: url("./images/home-icon.svg");
+}
+
+/* Projects Section */
+
+.projects h3 {
+    margin-top: 3rem;
 }
 
 /* Footer */
 
 footer {
     padding: 100vh 0 1rem 1rem;
-    color: #888
+    color: #888;
 }
 
 footer a {
-    color: #666
+    color: #666;
 }
 
 footer a:visited {
-    color: #444
+    color: #444;
 }
 
 @media print {
     footer {
-        display: none
+        display: none;
     }
 }
