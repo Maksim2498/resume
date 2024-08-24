@@ -55,6 +55,17 @@ li {
     margin-top: 3rem;
 }
 
+@media print {
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .not-printable {
+        display: none;
+    }
+}
+
 /* Main Section */
 
 .main {
