@@ -7,27 +7,40 @@
     margin: 0;
 }
 
+html {
+    padding: 2rem
+}
+
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
+    gap: 4rem;
 }
 
-section {
+main > * {
     width: 100%;
-    margin: 1rem 2rem;
-}
-
-section > * {
-    margin: 1.5rem 0;
 }
 
 h2 {
+    margin: 1rem 0;
     font-size: 1.5rem;
     text-transform: uppercase;
     border-bottom: medium solid black;
-    width: 100%;
+}
+
+h3 {
+    margin: 1rem 0;
+    font-size: 1.25rem;
+}
+
+h4 {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
+p {
+    margin-top: 1rem;
 }
 
 ul {
@@ -36,6 +49,10 @@ ul {
 
 li {
     margin: .5rem 0;
+}
+
+.with-top-offset {
+    margin-top: 3rem;
 }
 
 /* Main Section */
@@ -47,7 +64,6 @@ li {
 }
 
 h1 {
-    max-width: 100%;
     word-wrap: break-word;
 }
 
@@ -96,10 +112,6 @@ h1 .age {
     display: none;
 }
 
-.contacts {
-    width: 100%;
-}
-
 .contact-list {
     border-left: medium solid black;
 }
@@ -143,12 +155,6 @@ h1 .age {
 
 .contact-list .home td:first-child {
     background-image: url("./images/home-icon.svg");
-}
-
-/* Projects Section */
-
-.projects h3 {
-    margin-top: 3rem;
 }
 
 /* Footer */

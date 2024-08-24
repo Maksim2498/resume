@@ -1,24 +1,26 @@
-import CssMinimizerPlugin   from "css-minimizer-webpack-plugin"
-import HtmlPlugin           from "html-webpack-plugin"
+import CssMinimizerPlugin from "css-minimizer-webpack-plugin"
+import HtmlPlugin from "html-webpack-plugin"
 import MiniCssExtractPlugin from "mini-css-extract-plugin"
-import TerserPlugin         from "terser-webpack-plugin"
+import TerserPlugin from "terser-webpack-plugin"
 
 export default env => {
     const production = env.production ?? false
+    const envSuffix = production ? ".[contenthash]" : ""
 
     return {
-        mode:    production ? "production" : "development",
-        devtool: production ? undefined    : "source-map",
+        mode: production ? "production" : "development",
+        devtool: production ? undefined : "source-map",
 
         output: {
-            clean:    true,
-            filename: `bundle${production ? ".[contenthash]" : ""}.js`,
+            clean: true,
+            filename: `bundle${envSuffix}.js`,
         },
 
         plugins: [
             new MiniCssExtractPlugin({
-                filename: `index${production ? ".[contenthash]" : ""}.css`,
+                filename: `index${envSuffix}.css`,
             }),
+
             new HtmlPlugin({
                 template: "./src/index.html",
             }),
@@ -27,20 +29,20 @@ export default env => {
         module: {
             rules: [
                 {
-                    test:   /\.html$/i,
+                    test: /\.html$/i,
                     loader: "html-loader",
                 },
 
                 {
                     test: /\.css$/i,
-                    use:  [MiniCssExtractPlugin.loader, "css-loader"],
+                    use: [MiniCssExtractPlugin.loader, "css-loader"],
                 },
 
                 {
-                    test:      /\.(svg|jpeg)$/i,
-                    type:      "asset/resource",
+                    test: /\.(svg|jpeg)$/i,
+                    type: "asset/resource",
                     generator: {
-                        filename: `images/[name]${production ? ".[contenthash]" : ""}[ext]`,
+                        filename: `images/[name]${envSuffix}[ext]`,
                     },
                 },
             ],
@@ -55,7 +57,7 @@ export default env => {
 
         devServer: {
             port: 8000,
-            hot:  true,
+            hot: true,
         },
     }
 }
