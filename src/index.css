@@ -145,31 +145,35 @@ h1 .age {
 }
 
 .contact-list .tel td:first-child {
-    background-image: url("./images/phone-icon.svg");
+    background-image: url("./images/icons/phone.svg");
 }
 
 .contact-list .mail td:first-child {
-    background-image: url("./images/mail-icon.svg");
+    background-image: url("./images/icons/mail.svg");
 }
 
 .contact-list .vk td:first-child {
-    background-image: url("./images/vk-icon.svg");
+    background-image: url("./images/icons/vk.svg");
 }
 
 .contact-list .telegram td:first-child {
-    background-image: url("./images/telegram-icon.svg");
+    background-image: url("./images/icons/telegram.svg");
 }
 
 .contact-list .github td:first-child {
-    background-image: url("./images/github-icon.svg");
+    background-image: url("./images/icons/github.svg");
 }
 
 .contact-list .moshub td:first-child {
-    background-image: url("./images/moshub-icon.svg");
+    background-image: url("./images/icons/moshub.svg");
+}
+
+.contact-list .gitflic td:first-child {
+    background-image: url("./images/icons/gitflic.png");
 }
 
 .contact-list .home td:first-child {
-    background-image: url("./images/home-icon.svg");
+    background-image: url("./images/icons/home.svg");
 }
 
 /* Footer */

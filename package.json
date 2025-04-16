@@ -3,6 +3,8 @@
     "name": "resume",
     "type": "module",
     "version": "1.0.0",
+    "author": "Maksim Victorovich Fomin",
+    "homepage": "https://github.com/Maksim2498/resume#readme",
     "description": "My resume",
     "scripts": {
         "start": "webpack serve --open",
@@ -17,12 +19,10 @@
         "resume",
         "site"
     ],
-    "author": "Maksim Fomin",
     "license": "SEE LICENSE IN LICENSE.md",
     "bugs": {
         "url": "https://github.com/Maksim2498/resume/issues"
     },
-    "homepage": "https://github.com/Maksim2498/resume#readme",
     "devDependencies": {
         "css-loader": "^6.7.3",
         "css-minimizer-webpack-plugin": "^5.0.0",
